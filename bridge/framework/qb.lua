@@ -51,6 +51,9 @@ local function CreateMetaLicense(src, itemTable)
                 sex =  GetStringSex(Player.PlayerData.charinfo.gender),
                 nationality = Player.PlayerData.charinfo.nationality,
                 mugShot = 'none',
+                -- Vitto
+                type = "Class C Driver License",
+                --
                 badge = GetBadge(src,v)
             }
             Player.Functions.AddItem(v, 1, false, metadata)
